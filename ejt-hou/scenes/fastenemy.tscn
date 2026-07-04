@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://b7lyp3q6fxlcd"]
 
-[ext_resource type="Script" uid="uid://njbph6f4eelf" path="res://scenes/fastenemy.gd" id="1_sl4a0"]
+[ext_resource type="Script" uid="uid://njbph6f4eelf" path="res://fastenemy.gd" id="1_sl4a0"]
 [ext_resource type="Texture2D" uid="uid://c53qpi4tikqvr" path="res://assets/brackeys_platformer_assets/sprites/slime_purple.png" id="2_sl4a0"]
 [ext_resource type="Script" uid="uid://cwyj0tm2vemtm" path="res://scripts/hitbox.gd" id="3_y2xrv"]
 
