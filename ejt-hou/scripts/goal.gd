@@ -6,7 +6,7 @@ extends Node2D
 @export var mid_2: TileMapLayer
 @export var back_2: TileMapLayer
 @export var player: CharacterBody2D
-
+@onready var level1 = $/root/Game/Level1
 
 
 var spawn_pos = Vector2(100, 100)
@@ -24,6 +24,7 @@ func _on_timer_timeout() -> void:
 	Engine.time_scale = 1
 	if GameManager.level == 1:
 		print("level 1 complete, loading level 2")
+		level1.queue_free()
 		mid_1.enabled = false
 		back_1.enabled = false
 		mid_2.enabled = true

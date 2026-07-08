@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://cgca4tgixqr0k"]
 
 [ext_resource type="Texture2D" uid="uid://88vclv1c3qm5" path="res://assets/brackeys_platformer_assets/sprites/spikes.png" id="2_bflj7"]
-[ext_resource type="Script" uid="uid://ka3c5ltt3d1g" path="res://scenes/hitboxspikes.gd" id="2_xbcdo"]
+[ext_resource type="Script" uid="uid://ka3c5ltt3d1g" path="res://scripts/hitboxspikes.gd" id="2_xbcdo"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_5uy6h"]
 size = Vector2(14, 10)

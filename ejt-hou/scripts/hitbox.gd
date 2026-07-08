@@ -4,13 +4,14 @@ extends Area2D
 @warning_ignore("unused_private_class_variable")
 @export var _body: CollisionShape2D
 @onready var player = $"../../../Player"
-
+# @onready var animated_sprite =  $"../../../Player/AnimatedSprite"
 
 
 
 @warning_ignore("shadowed_variable")
 func _on_body_entered(_body):
 	print("you died fn")
+	player.animated_sprite.play("death")
 	Engine.time_scale = 0.5
 	timer.start()
 
