@@ -2,6 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://dhn6ntw1xqr8k" path="res://assets/brackeys_platformer_assets/sprites/knight.png" id="1_3vyb7"]
 [ext_resource type="Script" uid="uid://b62qldhtc0yts" path="res://scripts/player.gd" id="1_g2els"]
+[ext_resource type="AudioStream" uid="uid://beo4fdh2juqal" path="res://assets/brackeys_platformer_assets/sounds/jump.wav" id="3_qhqgy"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_oprun"]
 atlas = ExtResource("1_3vyb7")
@@ -169,3 +170,6 @@ shape = SubResource("CircleShape2D_fjrip")
 [node name="CoyoteTimer" type="Timer" parent="." unique_id=943067437]
 wait_time = 0.15
 one_shot = true
+
+[node name="JumpSFX" type="AudioStreamPlayer2D" parent="." unique_id=575819826]
+stream = ExtResource("3_qhqgy")
