@@ -1,7 +1,7 @@
 # regions
 
 A simple platformer for easy gameplay.
-It's harder than it seems
+While simple, it is unforgiving and much harder than it may seem.
 
 # (CREDITS)
 This project is based off of this tutorial, but I have changed and added many new features as well as designing the entire level.
