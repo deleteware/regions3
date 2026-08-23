@@ -15,5 +15,7 @@ var level = 1
 func add_point():
 	score += 1
 	print(score)
-	score_label.text = "Wow! You collected " + str(score) + " coins!"
+	score_label.text = "Congrats, you won! You collected " + str(score) + "out of 47 coins!"
+	if score == 47:
+		score_label.text = "Congrats, you won, and you've collected all 47 coins!"
 	
